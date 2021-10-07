@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+全ページ共通
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+/*-* 初期設定 *-*-*-*-*-*-*-*-*-*-*-*/
+body,header,main,h1,p,div,table,tr,th,td,form,textarea{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 画像 */
+img{
+  border: 0;
+  vertical-align: top;
+}
+
+/* フォント */
+html{
+  font-size: 62.5%;
+  font-family: 'Kaisei HarunoUmi', serif;
+  scroll-behavior:smooth;
+}
+
+/* IE対策 */
+main{
+  display: block;
+}
+
+h1{
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 0 0 rgb(0, 0, 0),0 1px 0 rgb(0, 0, 0),-1px 0 0 rgb(0, 0, 0),0 -1px 0 rgb(0, 0, 0);
+}
+
+header>p{
+  margin: 0 0 20px;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+/* テーブル */
+table{
+  border-collapse: collapse;
+}
+
+/* リンク */
+a{
+  color: rgb(0, 51, 102);
+}
+
+/* ボディ */
+body{
+  font-size: 1.6rem;
+  background-color: rgb(204, 204, 204);
+}
+
+/*-* 中央揃え *-*-*-*-*-*-*-*-*-*-*-*/
+#wrapper{
+  width: 450px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+form{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding: 20px;
+}
+
+input{
+  width: 50%;
+}
+textarea{
+  width: 80%;
+}
+tr{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+th{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#firstchild{
+  margin-top: 0;
+}
+
+td{
+  text-align: center;
+}
+
+.span_th{
+  color: rgb(255, 255, 255);
+  padding: 0 2px;
+  border-radius: 5px;
+  background-color: rgb(204, 51, 51);
+}
+.span_td{
+  color: rgb(204, 51, 51);
+}
+
+.form_p{
+  font-size: 1.3rem;
+  font-family:"Hiragino Kaku Gothic ProN","ヒラギノ角ゴ proN W3","Yu Gothic","游ゴシック","YuGothic","游ゴシック体","Meiryo","メイリオ",sans-serif;
+}
+
+#button{
+  margin-top: 20px;
+  width: 100%;
+}
