@@ -7,7 +7,7 @@ $_SESSION['token'] = uniqid('',true);
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>お問い合わせ</title>
+    <title>メールフォーム</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   </head>

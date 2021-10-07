@@ -59,6 +59,19 @@ body{
   background-color: rgb(204, 204, 204);
 }
 
+body::before{
+  background: url(bg.jpg) no-repeat center;
+  background-size: cover;
+  content: "";
+  display: block;
+  position: fixed;/* 擬似要素ごと固定 */
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
 /*-* 中央揃え *-*-*-*-*-*-*-*-*-*-*-*/
 #wrapper{
   width: 450px;
