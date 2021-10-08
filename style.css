@@ -41,6 +41,7 @@ header>p{
   margin: 0 0 20px;
   text-align: center;
   font-size: 2.3rem;
+  text-shadow: 1px 0 1px rgb(102, 153, 204),0 1px 1px rgb(102, 153, 204),-1px 0 1px rgb(102, 153, 204),0 -1px 1px rgb(102, 153, 204);
 }
 
 /* テーブル */
@@ -56,7 +57,6 @@ a{
 /* ボディ */
 body{
   font-size: 1.6rem;
-  background-color: rgb(204, 204, 204);
 }
 
 body::before{
@@ -76,16 +76,19 @@ body::before{
 #wrapper{
   width: 450px;
   margin: 0 auto;
-  background-color: rgb(255, 255, 255);
 }
 
-form{
-  background-color: rgb(255, 255, 255);
+form,#done{
+  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   text-align: left;
   padding: 20px;
+}
+
+#done>p{
+  text-align: center;
 }
 
 input{
@@ -110,6 +113,7 @@ th{
 }
 
 td{
+  margin-top: 5px;
   text-align: center;
 }
 
@@ -131,4 +135,14 @@ td{
 #button{
   margin-top: 20px;
   width: 100%;
+}
+
+.btntd{
+  margin-top: 30px;
+  width: 130px;
+  display: flex;
+  justify-content:space-between;
+}
+.btntd>input{
+  width: 50px;
 }
